@@ -73,7 +73,7 @@ int main(void)
 
 		//GPIO_IRQInterruptConfig(EXTI0_IRQn,DISABLE); //Deshabilitamos interrupcion externa mientras recivimos el dato
 
-		SPI_PeripheralClontrol(SPI2,ENABLE); /*Habilitando SPI*/
+		//SPI_PeripheralClontrol(SPI2,ENABLE); /*Habilitando SPI*/
 
 		while(!Receive_Stop)
 		{
