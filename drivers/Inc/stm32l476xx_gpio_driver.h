@@ -100,7 +100,7 @@ void GPIO_IRQHandling(uint8_t PinNumber);
 #define GPIO_PIN_9  	9
 #define GPIO_PIN_10 	10
 #define GPIO_PIN_11 	11
-#define GPIO_PIN_12 	12
+//#define GPIO_PIN_12 	12
 #define GPIO_PIN_13 	13
 #define GPIO_PIN_14 	14
 #define GPIO_PIN_15 	15
