@@ -1,0 +1,8 @@
+../Src/main.c:41:5:main	7
+../Src/main.c:96:6:Clock_Init	1
+../Src/main.c:102:6:GPIOx_Init	1
+../Src/main.c:161:6:EXTI0_IRQHandler	1
+../Src/main.c:168:6:SPI2_IRQHandler	1
+../Src/main.c:173:6:Delay	2
+../Src/main.c:178:6:SPI2_Inits	1
+../Src/main.c:194:6:SPI_ApplicationEventCallback	4
