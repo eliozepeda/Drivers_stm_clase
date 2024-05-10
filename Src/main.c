@@ -71,7 +71,7 @@ int main(void)
 
 		while(!Data_Available);
 
-		GPIO_IRQInterruptConfig(EXTI0_IRQn,DISABLE); //Deshabilitamos interrupcion externa mientras recivimos el dato
+		//GPIO_IRQInterruptConfig(EXTI0_IRQn,DISABLE); //Deshabilitamos interrupcion externa mientras recivimos el dato
 
 		SPI_PeripheralClontrol(SPI2,ENABLE); /*Habilitando SPI*/
 
