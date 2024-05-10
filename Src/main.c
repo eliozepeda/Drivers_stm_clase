@@ -85,7 +85,7 @@ int main(void)
 
 		while(SPI_GetFlagStatus(SPI2, SPI_BUSY_FLAG));
 
-		SPI_PeripheralClontrol(SPI2,DISABLE); /*Deshabilitando SPI*/
+		//SPI_PeripheralClontrol(SPI2,DISABLE); /*Deshabilitando SPI*/
 
 		Data_Available = 0;
 
