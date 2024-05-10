@@ -65,7 +65,7 @@ int main(void)
 		int result = strcmp(receive_data,expected_data);
 		if(result == 0)
 		{
-			GPIO_ToggleOutputPin(GPIOA, GPIO_PIN_5);
+			//GPIO_ToggleOutputPin(GPIOA, GPIO_PIN_5);
 			strcpy(receive_data," ");
 		}
 
